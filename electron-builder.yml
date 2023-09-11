@@ -1,0 +1,12 @@
+appId: com.next.k8s-manager
+productName: K8s Manager
+copyright: Copyright © 2023 Sameer Desai
+directories:
+  output: dist
+  buildResources: resources
+files:
+  - from: .
+    filter:
+      - package.json
+      - app
+publish: null
